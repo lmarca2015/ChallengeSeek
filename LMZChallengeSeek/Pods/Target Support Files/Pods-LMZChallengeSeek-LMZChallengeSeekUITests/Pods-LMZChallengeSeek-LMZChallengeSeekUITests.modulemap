@@ -1,0 +1,6 @@
+framework module Pods_LMZChallengeSeek_LMZChallengeSeekUITests {
+  umbrella header "Pods-LMZChallengeSeek-LMZChallengeSeekUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

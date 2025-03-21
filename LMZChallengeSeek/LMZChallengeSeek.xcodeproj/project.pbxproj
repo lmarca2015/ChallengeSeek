@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34BAE2102D8D2C5600EF06D6 /* SeekUI in Frameworks */ = {isa = PBXBuildFile; productRef = 34BAE20F2D8D2C5600EF06D6 /* SeekUI */; };
+		34FE20782D8D2065008241D9 /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE20762D8D2054008241D9 /* Flutter.framework */; };
+		34FE20792D8D2065008241D9 /* Flutter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE20762D8D2054008241D9 /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8AB5911DEE97C0D3A0ECB4F4 /* Pods_LMZChallengeSeek_LMZChallengeSeekUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38095089D6E62DD08A11194 /* Pods_LMZChallengeSeek_LMZChallengeSeekUITests.framework */; };
+		A56EB4FB7EA883F9998645A7 /* Pods_LMZChallengeSeekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D4B0BC3AAE935C3944729E /* Pods_LMZChallengeSeekTests.framework */; };
+		B90BF85E845F9008EC71F33E /* Pods_LMZChallengeSeek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65CE93B872A1ED7F09B8A0E /* Pods_LMZChallengeSeek.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34EDA0262D8D1EBF00A24B45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34EDA00D2D8D1EBD00A24B45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34EDA0142D8D1EBD00A24B45;
+			remoteInfo = LMZChallengeSeek;
+		};
+		34EDA0302D8D1EBF00A24B45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34EDA00D2D8D1EBD00A24B45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34EDA0142D8D1EBD00A24B45;
+			remoteInfo = LMZChallengeSeek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34FE207A2D8D2065008241D9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				34FE20792D8D2065008241D9 /* Flutter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		34EDA0152D8D1EBD00A24B45 /* LMZChallengeSeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMZChallengeSeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EDA0252D8D1EBF00A24B45 /* LMZChallengeSeekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMZChallengeSeekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EDA02F2D8D1EBF00A24B45 /* LMZChallengeSeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMZChallengeSeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FE20762D8D2054008241D9 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = "flutter_module/build/ios/Release-iphoneos/Flutter.framework"; sourceTree = "<group>"; };
+		5131C7DDB75607A0E7CFD788 /* Pods-LMZChallengeSeekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMZChallengeSeekTests.debug.xcconfig"; path = "Target Support Files/Pods-LMZChallengeSeekTests/Pods-LMZChallengeSeekTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F6DBFF8F42F172B27258563 /* Pods-LMZChallengeSeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMZChallengeSeek.debug.xcconfig"; path = "Target Support Files/Pods-LMZChallengeSeek/Pods-LMZChallengeSeek.debug.xcconfig"; sourceTree = "<group>"; };
+		7945EA59AD75C9573199F428 /* Pods-LMZChallengeSeek-LMZChallengeSeekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMZChallengeSeek-LMZChallengeSeekUITests.debug.xcconfig"; path = "Target Support Files/Pods-LMZChallengeSeek-LMZChallengeSeekUITests/Pods-LMZChallengeSeek-LMZChallengeSeekUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		84D4B0BC3AAE935C3944729E /* Pods_LMZChallengeSeekTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LMZChallengeSeekTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62BC4673CA18BC4110E334B /* Pods-LMZChallengeSeek-LMZChallengeSeekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMZChallengeSeek-LMZChallengeSeekUITests.release.xcconfig"; path = "Target Support Files/Pods-LMZChallengeSeek-LMZChallengeSeekUITests/Pods-LMZChallengeSeek-LMZChallengeSeekUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B19E0C572201EFEF00783B32 /* Pods-LMZChallengeSeek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMZChallengeSeek.release.xcconfig"; path = "Target Support Files/Pods-LMZChallengeSeek/Pods-LMZChallengeSeek.release.xcconfig"; sourceTree = "<group>"; };
+		B65CE93B872A1ED7F09B8A0E /* Pods_LMZChallengeSeek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LMZChallengeSeek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38095089D6E62DD08A11194 /* Pods_LMZChallengeSeek_LMZChallengeSeekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LMZChallengeSeek_LMZChallengeSeekUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCFC436CA8A54A4EFB5F76E /* Pods-LMZChallengeSeekTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMZChallengeSeekTests.release.xcconfig"; path = "Target Support Files/Pods-LMZChallengeSeekTests/Pods-LMZChallengeSeekTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		34EDA0172D8D1EBD00A24B45 /* LMZChallengeSeek */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LMZChallengeSeek;
+			sourceTree = "<group>";
+		};
+		34EDA0282D8D1EBF00A24B45 /* LMZChallengeSeekTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LMZChallengeSeekTests;
+			sourceTree = "<group>";
+		};
+		34EDA0322D8D1EBF00A24B45 /* LMZChallengeSeekUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LMZChallengeSeekUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34EDA0122D8D1EBD00A24B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BAE2102D8D2C5600EF06D6 /* SeekUI in Frameworks */,
+				B90BF85E845F9008EC71F33E /* Pods_LMZChallengeSeek.framework in Frameworks */,
+				34FE20782D8D2065008241D9 /* Flutter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EDA0222D8D1EBF00A24B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56EB4FB7EA883F9998645A7 /* Pods_LMZChallengeSeekTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EDA02C2D8D1EBF00A24B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB5911DEE97C0D3A0ECB4F4 /* Pods_LMZChallengeSeek_LMZChallengeSeekUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A20B1CBD95691F56343833 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34FE20762D8D2054008241D9 /* Flutter.framework */,
+				B65CE93B872A1ED7F09B8A0E /* Pods_LMZChallengeSeek.framework */,
+				D38095089D6E62DD08A11194 /* Pods_LMZChallengeSeek_LMZChallengeSeekUITests.framework */,
+				84D4B0BC3AAE935C3944729E /* Pods_LMZChallengeSeekTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34EDA00C2D8D1EBD00A24B45 = {
+			isa = PBXGroup;
+			children = (
+				34EDA0172D8D1EBD00A24B45 /* LMZChallengeSeek */,
+				34EDA0282D8D1EBF00A24B45 /* LMZChallengeSeekTests */,
+				34EDA0322D8D1EBF00A24B45 /* LMZChallengeSeekUITests */,
+				34EDA0162D8D1EBD00A24B45 /* Products */,
+				B82566EA6B584FF898E805C0 /* Pods */,
+				32A20B1CBD95691F56343833 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34EDA0162D8D1EBD00A24B45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34EDA0152D8D1EBD00A24B45 /* LMZChallengeSeek.app */,
+				34EDA0252D8D1EBF00A24B45 /* LMZChallengeSeekTests.xctest */,
+				34EDA02F2D8D1EBF00A24B45 /* LMZChallengeSeekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B82566EA6B584FF898E805C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F6DBFF8F42F172B27258563 /* Pods-LMZChallengeSeek.debug.xcconfig */,
+				B19E0C572201EFEF00783B32 /* Pods-LMZChallengeSeek.release.xcconfig */,
+				7945EA59AD75C9573199F428 /* Pods-LMZChallengeSeek-LMZChallengeSeekUITests.debug.xcconfig */,
+				A62BC4673CA18BC4110E334B /* Pods-LMZChallengeSeek-LMZChallengeSeekUITests.release.xcconfig */,
+				5131C7DDB75607A0E7CFD788 /* Pods-LMZChallengeSeekTests.debug.xcconfig */,
+				FCCFC436CA8A54A4EFB5F76E /* Pods-LMZChallengeSeekTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34EDA0142D8D1EBD00A24B45 /* LMZChallengeSeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34EDA0392D8D1EBF00A24B45 /* Build configuration list for PBXNativeTarget "LMZChallengeSeek" */;
+			buildPhases = (
+				9D1C64C8236DF14440E0DBBD /* [CP] Check Pods Manifest.lock */,
+				7BBFDDC077CB2AC4F9A87F2B /* [CP-User] Run Flutter Build flutter_module Script */,
+				34EDA0112D8D1EBD00A24B45 /* Sources */,
+				34EDA0122D8D1EBD00A24B45 /* Frameworks */,
+				34EDA0132D8D1EBD00A24B45 /* Resources */,
+				0236FC335D5A6BA5159868B8 /* [CP-User] Embed Flutter Build flutter_module Script */,
+				34FE207A2D8D2065008241D9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				34EDA0172D8D1EBD00A24B45 /* LMZChallengeSeek */,
+			);
+			name = LMZChallengeSeek;
+			productName = LMZChallengeSeek;
+			productReference = 34EDA0152D8D1EBD00A24B45 /* LMZChallengeSeek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34EDA0242D8D1EBF00A24B45 /* LMZChallengeSeekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34EDA03C2D8D1EBF00A24B45 /* Build configuration list for PBXNativeTarget "LMZChallengeSeekTests" */;
+			buildPhases = (
+				E51DE4DE2C201211DC0E12D1 /* [CP] Check Pods Manifest.lock */,
+				34EDA0212D8D1EBF00A24B45 /* Sources */,
+				34EDA0222D8D1EBF00A24B45 /* Frameworks */,
+				34EDA0232D8D1EBF00A24B45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34EDA0272D8D1EBF00A24B45 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				34EDA0282D8D1EBF00A24B45 /* LMZChallengeSeekTests */,
+			);
+			name = LMZChallengeSeekTests;
+			productName = LMZChallengeSeekTests;
+			productReference = 34EDA0252D8D1EBF00A24B45 /* LMZChallengeSeekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34EDA02E2D8D1EBF00A24B45 /* LMZChallengeSeekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34EDA03F2D8D1EBF00A24B45 /* Build configuration list for PBXNativeTarget "LMZChallengeSeekUITests" */;
+			buildPhases = (
+				C8FAE9BFB6AFE5DE3F55106B /* [CP] Check Pods Manifest.lock */,
+				34EDA02B2D8D1EBF00A24B45 /* Sources */,
+				34EDA02C2D8D1EBF00A24B45 /* Frameworks */,
+				34EDA02D2D8D1EBF00A24B45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34EDA0312D8D1EBF00A24B45 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				34EDA0322D8D1EBF00A24B45 /* LMZChallengeSeekUITests */,
+			);
+			name = LMZChallengeSeekUITests;
+			productName = LMZChallengeSeekUITests;
+			productReference = 34EDA02F2D8D1EBF00A24B45 /* LMZChallengeSeekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34EDA00D2D8D1EBD00A24B45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					34EDA0142D8D1EBD00A24B45 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					34EDA0242D8D1EBF00A24B45 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 34EDA0142D8D1EBD00A24B45;
+					};
+					34EDA02E2D8D1EBF00A24B45 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 34EDA0142D8D1EBD00A24B45;
+					};
+				};
+			};
+			buildConfigurationList = 34EDA0102D8D1EBD00A24B45 /* Build configuration list for PBXProject "LMZChallengeSeek" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34EDA00C2D8D1EBD00A24B45;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				34BAE20E2D8D2C5600EF06D6 /* XCLocalSwiftPackageReference "SeekUI" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 34EDA0162D8D1EBD00A24B45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34EDA0142D8D1EBD00A24B45 /* LMZChallengeSeek */,
+				34EDA0242D8D1EBF00A24B45 /* LMZChallengeSeekTests */,
+				34EDA02E2D8D1EBF00A24B45 /* LMZChallengeSeekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34EDA0132D8D1EBD00A24B45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EDA0232D8D1EBF00A24B45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EDA02D2D8D1EBF00A24B45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0236FC335D5A6BA5159868B8 /* [CP-User] Embed Flutter Build flutter_module Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Embed Flutter Build flutter_module Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/flutter_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+		};
+		7BBFDDC077CB2AC4F9A87F2B /* [CP-User] Run Flutter Build flutter_module Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build flutter_module Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/flutter_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		9D1C64C8236DF14440E0DBBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LMZChallengeSeek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8FAE9BFB6AFE5DE3F55106B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LMZChallengeSeek-LMZChallengeSeekUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E51DE4DE2C201211DC0E12D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LMZChallengeSeekTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34EDA0112D8D1EBD00A24B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EDA0212D8D1EBF00A24B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EDA02B2D8D1EBF00A24B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34EDA0272D8D1EBF00A24B45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34EDA0142D8D1EBD00A24B45 /* LMZChallengeSeek */;
+			targetProxy = 34EDA0262D8D1EBF00A24B45 /* PBXContainerItemProxy */;
+		};
+		34EDA0312D8D1EBF00A24B45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34EDA0142D8D1EBD00A24B45 /* LMZChallengeSeek */;
+			targetProxy = 34EDA0302D8D1EBF00A24B45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34EDA0372D8D1EBF00A24B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34EDA0382D8D1EBF00A24B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34EDA03A2D8D1EBF00A24B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6DBFF8F42F172B27258563 /* Pods-LMZChallengeSeek.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LMZChallengeSeek/Preview Content\"";
+				DEVELOPMENT_TEAM = KTB532W8LX;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/flutter_module/build/ios/Release-iphoneos",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Necesitamos acceso a la cámara para escanear códigos QR";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Necesitamos usar Face ID para autenticación";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logaris.LMZChallengeSeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34EDA03B2D8D1EBF00A24B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B19E0C572201EFEF00783B32 /* Pods-LMZChallengeSeek.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LMZChallengeSeek/Preview Content\"";
+				DEVELOPMENT_TEAM = KTB532W8LX;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/flutter_module/build/ios/Release-iphoneos",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Necesitamos acceso a la cámara para escanear códigos QR";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Necesitamos usar Face ID para autenticación";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logaris.LMZChallengeSeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34EDA03D2D8D1EBF00A24B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5131C7DDB75607A0E7CFD788 /* Pods-LMZChallengeSeekTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTB532W8LX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logaris.LMZChallengeSeekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMZChallengeSeek.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LMZChallengeSeek";
+			};
+			name = Debug;
+		};
+		34EDA03E2D8D1EBF00A24B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCCFC436CA8A54A4EFB5F76E /* Pods-LMZChallengeSeekTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTB532W8LX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logaris.LMZChallengeSeekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMZChallengeSeek.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LMZChallengeSeek";
+			};
+			name = Release;
+		};
+		34EDA0402D8D1EBF00A24B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7945EA59AD75C9573199F428 /* Pods-LMZChallengeSeek-LMZChallengeSeekUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTB532W8LX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logaris.LMZChallengeSeekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LMZChallengeSeek;
+			};
+			name = Debug;
+		};
+		34EDA0412D8D1EBF00A24B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62BC4673CA18BC4110E334B /* Pods-LMZChallengeSeek-LMZChallengeSeekUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTB532W8LX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logaris.LMZChallengeSeekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LMZChallengeSeek;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34EDA0102D8D1EBD00A24B45 /* Build configuration list for PBXProject "LMZChallengeSeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EDA0372D8D1EBF00A24B45 /* Debug */,
+				34EDA0382D8D1EBF00A24B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34EDA0392D8D1EBF00A24B45 /* Build configuration list for PBXNativeTarget "LMZChallengeSeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EDA03A2D8D1EBF00A24B45 /* Debug */,
+				34EDA03B2D8D1EBF00A24B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34EDA03C2D8D1EBF00A24B45 /* Build configuration list for PBXNativeTarget "LMZChallengeSeekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EDA03D2D8D1EBF00A24B45 /* Debug */,
+				34EDA03E2D8D1EBF00A24B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34EDA03F2D8D1EBF00A24B45 /* Build configuration list for PBXNativeTarget "LMZChallengeSeekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EDA0402D8D1EBF00A24B45 /* Debug */,
+				34EDA0412D8D1EBF00A24B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		34BAE20E2D8D2C5600EF06D6 /* XCLocalSwiftPackageReference "SeekUI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = SeekUI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		34BAE20F2D8D2C5600EF06D6 /* SeekUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SeekUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 34EDA00D2D8D1EBD00A24B45 /* Project object */;
+}
